@@ -6,7 +6,7 @@ Modern Web Dünyasına Giriş eğitimi bitirme projesi kapsamında geliştirilmi
 ![Uygulama Ekranı](src/assets/1.png)
 ![Uygulama Ekranı](src/assets/2.png)
 ![Uygulama Ekranı](src/assets/3.png)
-![Uygulama Ekranı](src/assets/4.png)
+![Uygulama Ekranı](src/assets/4.PNG)
 
 ## ✨ Proje Özellikleri
 
