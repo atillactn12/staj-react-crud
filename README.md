@@ -1,73 +1,22 @@
-# React + TypeScript + Vite
+# 🚀 Kullanıcı Yönetim Paneli (React CRUD)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern Web Dünyasına Giriş eğitimi bitirme projesi kapsamında geliştirilmiş; uzak API entegrasyonu ve LocalStorage (yerel depolama) özelliklerine sahip profesyonel bir CRUD uygulamasıdır.
 
-Currently, two official plugins are available:
+## ✨ Proje Özellikleri
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ **API Entegrasyonu:** `JSONPlaceholder` üzerinden çekilen veriler dinamik olarak Türkçe'ye çevrilerek listelenir.
+- ✅ **Gelişmiş Form Yönetimi:** Dinamik ülke bayraklı telefon formatlama ve input bazlı görsel doğrulama mevcuttur.
+- ✅ **Veri Kaynağı Ayrımı:** Listede API'den gelen veriler ile kullanıcı tarafından yerel eklenen veriler (YEREL/API etiketleri ile) ayırt edilebilir.
+- ✅ **Kullanıcı Deneyimi (UX):** İşlem sırasında aktif olan "Yükleniyor" animasyonları ve etkileşimli buton tasarımları.
+- ✅ **Tam CRUD Desteği:** Kullanıcı Ekleme, Listeleme, Güncelleme ve Silme işlemleri eksiksiz çalışmaktadır.
 
-## React Compiler
+## 📁 Proje Klasör Yapısı
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Yönergede belirtilen klasörleme kurallarına tam uyum sağlanmıştır:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+```text
+src/
+├── Components/    # UserForm ve UserList bileşenleri
+├── Pages/         # Home (Ana Sayfa) tasarımı
+├── Interfaces/    # User (Veri Modeli/TypeScript Tip Tanımları)
+└── assets/        # Proje görselleri ve statik dosyalar
