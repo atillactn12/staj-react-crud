@@ -1,40 +1,43 @@
-# 🚀 Kullanıcı Yönetim Paneli (React CRUD)
+✨ Proje Özellikleri
+✅ API Entegrasyonu: JSONPlaceholder üzerinden çekilen veriler dinamik olarak Türkçe'ye çevrilerek listelenir.
 
-Modern Web Dünyasına Giriş eğitimi bitirme projesi kapsamında geliştirilmiş; uzak API entegrasyonu ve LocalStorage (yerel depolama) özelliklerine sahip profesyonel bir CRUD uygulamasıdır.
+✅ Gelişmiş Form Yönetimi: Dinamik ülke bayraklı telefon formatlama ve input bazlı görsel doğrulama mevcuttur.
 
-## ✨ Proje Özellikleri
+✅ Veri Kaynağı Ayrımı: Listede API'den gelen veriler ile kullanıcı tarafından yerel eklenen veriler (YEREL/API etiketleri ile) ayırt edilebilir.
 
-- ✅ **API Entegrasyonu:** `JSONPlaceholder` üzerinden çekilen veriler dinamik olarak Türkçe'ye çevrilerek listelenir.
-- ✅ **Gelişmiş Form Yönetimi:** Dinamik ülke bayraklı telefon formatlama ve input bazlı görsel doğrulama mevcuttur.
-- ✅ **Veri Kaynağı Ayrımı:** Listede API'den gelen veriler ile kullanıcı tarafından yerel eklenen veriler (YEREL/API etiketleri ile) ayırt edilebilir.
-- ✅ **Kullanıcı Deneyimi (UX):** İşlem sırasında aktif olan "Yükleniyor" animasyonları ve etkileşimli buton tasarımları.
-- ✅ **Tam CRUD Desteği:** Kullanıcı Ekleme, Listeleme, Güncelleme ve Silme işlemleri eksiksiz çalışmaktadır.
+✅ Kullanıcı Deneyimi (UX): İşlem sırasında aktif olan "Yükleniyor" animasyonları ve etkileşimli buton tasarımları.
 
-## 📁 Proje Klasör Yapısı
+✅ Tam CRUD Desteği: Kullanıcı Ekleme, Listeleme, Güncelleme ve Silme işlemleri eksiksiz çalışmaktadır.
 
+📁 Proje Klasör Yapısı
 Yönergede belirtilen klasörleme kurallarına tam uyum sağlanmıştır:
 
-```text
+Plaintext
+
 src/
 ├── Components/    # UserForm ve UserList bileşenleri
 ├── Pages/         # Home (Ana Sayfa) tasarımı
 ├── Interfaces/    # User (Veri Modeli/TypeScript Tip Tanımları)
 └── assets/        # Proje görselleri ve statik dosyalar
+🛠️ Kullanılan Teknolojiler
+ReactJS - UI Kütüphanesi
 
-## 🛠️ Kullanılan Teknolojiler
+TypeScript - Tip Güvenliği
 
-- **ReactJS** - UI Kütüphanesi
-- **TypeScript** - Tip Güvenliği
-- **Tailwind CSS** - Modern ve Hızlı Tasarım
-- **Vite** - Build Aracı
-- **Netlify** - Hosting ve Canlı Yayın
+Tailwind CSS - Modern ve Hızlı Tasarım
 
-## 📦 Kurulum ve Çalıştırma
+Vite - Build Aracı
 
-1. Projeyi bilgisayarınıza indirin veya klonlayın.
-2. Terminalden bağımlılıkları yükleyin:
-   ```bash
-   npm install
+Netlify - Hosting ve Canlı Yayın
+
+📦 Kurulum ve Çalıştırma
+Projeyi bilgisayarınıza indirin veya klonlayın.
+
+Terminalden bağımlılıkları yükleyin:
+
+Bash
+
+npm install
 Uygulamayı başlatın:
 
 Bash
@@ -45,6 +48,11 @@ Projede test verileri için aşağıdaki servis kullanılmaktadır:
 
 Endpoint: https://jsonplaceholder.typicode.com/users
 
+🌍 Canlı Yayın (Netlify)
+Projenin canlı haline aşağıdaki bağlantıdan ulaşabilirsiniz:
+🔗 (https://atilla-cetin-crud.netlify.app)
+
 👨‍💻 Geliştirici
 Ad Soyad: Atilla Çetin
+
 Proje: Web Geliştirme; Javascript Proje Bilgisi
