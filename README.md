@@ -20,3 +20,31 @@ src/
 ├── Pages/         # Home (Ana Sayfa) tasarımı
 ├── Interfaces/    # User (Veri Modeli/TypeScript Tip Tanımları)
 └── assets/        # Proje görselleri ve statik dosyalar
+
+## 🛠️ Kullanılan Teknolojiler
+
+- **ReactJS** - UI Kütüphanesi
+- **TypeScript** - Tip Güvenliği
+- **Tailwind CSS** - Modern ve Hızlı Tasarım
+- **Vite** - Build Aracı
+- **Netlify** - Hosting ve Canlı Yayın
+
+## 📦 Kurulum ve Çalıştırma
+
+1. Projeyi bilgisayarınıza indirin veya klonlayın.
+2. Terminalden bağımlılıkları yükleyin:
+   ```bash
+   npm install
+Uygulamayı başlatın:
+
+Bash
+
+npm run dev
+🌐 API Kaynağı
+Projede test verileri için aşağıdaki servis kullanılmaktadır:
+
+Endpoint: https://jsonplaceholder.typicode.com/users
+
+👨‍💻 Geliştirici
+Ad Soyad: Atilla Çetin
+Proje: Web Geliştirme; Javascript Proje Bilgisi
